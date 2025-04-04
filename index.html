@@ -66,6 +66,70 @@
       justify-content: space-between;
       flex-wrap: wrap;
     }
+
+    .antivirus-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .antivirus-card {
+            width: 315px;
+            border: 1px solid;
+            overflow: hidden;
+            padding: 10px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .antivirus-card__img {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .antivirus-card__img img {
+            width: 90px;
+        }
+
+        .antivirus-card a {
+            color: black;
+            display: block;
+            font-size: 21px;
+            font-weight: 500;
+            margin-top: 12px;
+            text-decoration: none;
+            transition: all .3s ease-in;
+        }
+
+        .antivirus-card a:hover {
+          color: rgb(105, 105, 105);
+        }
+
+        .antivirus-card p {
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+
+        .antivirus-card__list {
+            list-style: none;
+            margin-top: auto;
+            margin-bottom: 0;
+            padding: 0;
+        }
+
+        .antivirus-card__list li {
+            font-size: 14px;
+        }
+
+        .label {
+            font-weight: 600;
+        }
   </style>
 </head>
 <body>
@@ -178,72 +242,6 @@
     
       <p><strong>Заключение:</strong> антивирус Kaspersky Free продемонстрировал высокую эффективность при тестировании. Программа успешно обнаружила тестовую угрозу EICAR и быстро среагировала на потенциальную угрозу.</p>
     </section>
-
-    <style>
-        .antivirus-wrapper {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .antivirus-card {
-            width: 30%;
-            border: 1px solid;
-            overflow: hidden;
-            padding: 10px;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-        .antivirus-card__img {
-            width: 100%;
-            height: 100px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .antivirus-card__img img {
-            width: 90px;
-        }
-
-        .antivirus-card a {
-            color: black;
-            display: block;
-            font-size: 21px;
-            font-weight: 500;
-            margin-top: 12px;
-            text-decoration: none;
-            transition: all .3s ease-in;
-        }
-
-        .antivirus-card a:hover {
-          color: rgb(105, 105, 105);
-        }
-
-        .antivirus-card p {
-            font-size: 14px;
-            font-weight: 300;
-            margin-bottom: 10px;
-        }
-
-        .antivirus-card__list {
-            list-style: none;
-            margin-top: auto;
-            margin-bottom: 0;
-            padding: 0;
-        }
-
-        .antivirus-card__list li {
-            font-size: 14px;
-        }
-
-        .label {
-            font-weight: 600;
-        }
-    </style>
 
     <section id="products">
       <h2>Обзор антивирусов</h2>
