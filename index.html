@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Антивирусы: анализ антивирусов</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      background-color: #f4f9ff;
+      color: #222;
+    }
+    header {
+      background-color: #006dcc;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+      border-bottom: 5px solid #004d99;
+    }
+    nav {
+      background: #004d99;
+      padding: 0.75rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #a0cfff;
+    }
+    main {
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    section {
+      background-color: white;
+      padding: 1.5rem;
+      border: 1px solid #d0dce5;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #004d99;
+      border-bottom: 2px solid #d0dce5;
+      padding-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+      background-color: #e3f2fd;
+      color: #333;
+      border-top: 2px solid #c0def2;
+    }
+
+    .interface__images {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Антивирусы: анализ антивирусов</h1>
+    <p>Индивидуальный проект | Нижневартовский социально-гуманитарный колледж</p>
+  </header>
+  <nav>
+    <a href="#vvedenie">Введение</a>
+    <a href="#theory">Теория</a>
+    <a href="#praktika">Практика</a>
+    <a href="#products">Антивирусы</a>
+    <a href="#zakluchenie">Выводы</a>
+  </nav>
+  <main>
+    <section id="vvedenie">
+      <h2>Введение</h2>
+      <p>Современные цифровые технологии развиваются стремительно, и с ними растут угрозы информационной безопасности. Вредоносные программы способны не только нарушить работу устройств, но и привести к утечке личных данных. Антивирусы остаются надёжным средством защиты информации. Цель проекта — провести анализ современных антивирусных решений, их возможностей и практической эффективности.</p>
+    </section>
+
+    <section id="theory">
+      <h2>Теоретическая часть</h2>
+      
+      <p>Информационная безопасность — одна из важнейших задач современного цифрового общества. С каждым годом количество вредоносных программ увеличивается, а их методы становятся всё более изощрёнными.</p>
+      
+      <p><strong>Вредоносное ПО включает в себя:</strong></p>
+      <ul>
+        <li>Вирусы</li>
+        <li>Черви</li>
+        <li>Трояны</li>
+        <li>Шпионские программы</li>
+        <li>Программы-вымогатели (ransomware)</li>
+        <li>Рекламные модули (adware)</li>
+      </ul>
+    
+      <p><strong>Антивирусные программы предназначены для обнаружения, изоляции и удаления подобных угроз. Они используют различные методы защиты:</strong></p>
+      <ul>
+        <li><strong>Сигнатурный анализ:</strong> проверка файлов по базе известных вредоносных сигнатур.</li>
+        <li><strong>Эвристический анализ:</strong> анализ поведения программ для выявления новых, неизвестных угроз.</li>
+        <li><strong>Облачные технологии:</strong> использование удалённых серверов для проверки подозрительных объектов.</li>
+        <li><strong>Проактивная защита:</strong> предотвращение заражения до его возникновения.</li>
+      </ul>
+    
+      <p><strong>Антивирусные решения делятся на:</strong></p>
+      <ul>
+        <li><strong>Бесплатные продукты:</strong> Kaspersky Free, Avast Free Antivirus и другие.</li>
+        <li><strong>Платные комплексы:</strong> Norton 360, Bitdefender, ESET NOD32 и др.</li>
+      </ul>
+    
+      <p>Платные версии обеспечивают более высокий уровень защиты и предлагают расширенные функции:</p>
+      <ul>
+        <li>VPN для защиты интернет-трафика</li>
+        <li>Родительский контроль</li>
+        <li>Защита веб-камеры</li>
+        <li>Менеджер паролей</li>
+        <li>Защита от фишинга и программ-вымогателей</li>
+      </ul>
+    
+      <p>Важно учитывать юридические аспекты использования антивирусного ПО. Пользователи обязаны соблюдать лицензионные соглашения и законы о персональных данных, так как многие антивирусы обрабатывают информацию о системе и интернет-активности.</p>
+    
+      <p>Выбор антивирусного решения зависит от потребностей пользователя, бюджета и целей использования. Для базовой защиты достаточно бесплатных программ, для комплексной безопасности лучше выбирать платные решения с расширенными функциями.</p>
+    </section>
+
+    <section id="praktika">
+      <h2>Практическая часть</h2>
+      
+      <p>В рамках практической части проекта был установлен и протестирован антивирус Kaspersky Free. Целью тестирования стало изучение интерфейса программы, основных функций и реакция антивируса на тестовую угрозу EICAR.</p>
+      
+      <h3>Пошаговая инструкция по установке и настройке</h3>
+      <ol>
+        <li>Скачайте установочный файл с официального сайта.</li>
+        <li>Запустите установку и следуйте инструкциям мастера установки.</li>
+        <li>После установки откройте программу и выполните обновление баз данных.</li>
+        <li>Настройте параметры сканирования для максимальной защиты.</li>
+      </ol>
+    
+      <h3>Интерфейс программы</h3>
+      <div class="interface__images">
+        <img src="image/1.jpg" alt="Интерфейс Kaspersky Free" style="max-width:300px; height: 300px;">
+        <img src="image/2.jpg" alt="Интерфейс Kaspersky Free" style="max-width:300px; height: 300px;">
+        <img src="image/3.jpg" alt="Интерфейс Kaspersky Free" style="max-width:300px; height: 300px;">
+      </div>
+    
+      <h3>Результаты тестирования с файлом EICAR</h3>
+      <div class="interface__images">
+        <img src="image/4.jpg" alt="Обнаружение EICAR в Kaspersky" style="max-width:300px;">
+        <img src="image/5.jpg" alt="Обнаружение EICAR в Kaspersky" style="max-width:300px;">
+        <img src="image/6.jpg" alt="Обнаружение EICAR в Kaspersky" style="max-width:300px;">
+      </div>
+    
+      <h3>Плюсы и минусы программы</h3>
+      <table border="1" cellpadding="8" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Плюсы</th>
+          <th>Минусы</th>
+        </tr>
+        <tr>
+          <td>Бесплатная версия</td>
+          <td>Ограниченный функционал по сравнению с платными версиями</td>
+        </tr>
+        <tr>
+          <td>Простой интерфейс на русском языке</td>
+          <td>Реклама платной версии</td>
+        </tr>
+        <tr>
+          <td>Эффективная защита от основных угроз</td>
+          <td>Нет встроенного VPN и родительского контроля</td>
+        </tr>
+      </table>
+    
+      <p><strong>Заключение:</strong> антивирус Kaspersky Free продемонстрировал высокую эффективность при тестировании. Программа успешно обнаружила тестовую угрозу EICAR и быстро среагировала на потенциальную угрозу.</p>
+    </section>
+
+    <style>
+        .antivirus-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .antivirus-card {
+            width: 30%;
+            border: 1px solid;
+            overflow: hidden;
+            padding: 10px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .antivirus-card__img {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .antivirus-card__img img {
+            width: 90px;
+        }
+
+        .antivirus-card a {
+            color: black;
+            display: block;
+            font-size: 21px;
+            font-weight: 500;
+            margin-top: 12px;
+            text-decoration: none;
+            transition: all .3s ease-in;
+        }
+
+        .antivirus-card a:hover {
+          color: rgb(105, 105, 105);
+        }
+
+        .antivirus-card p {
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+
+        .antivirus-card__list {
+            list-style: none;
+            margin-top: auto;
+            margin-bottom: 0;
+            padding: 0;
+        }
+
+        .antivirus-card__list li {
+            font-size: 14px;
+        }
+
+        .label {
+            font-weight: 600;
+        }
+    </style>
+
+    <section id="products">
+      <h2>Обзор антивирусов</h2>
+
+      <div class="antivirus-wrapper">
+        <div class="antivirus-card">
+            <div class="antivirus-card__img">
+                <img src="./image/Kaspersky_Standard.svg" alt="kaspersky free">
+            </div>
+    
+            <div class="antivirus-card__text">
+                <a href="https://www.kaspersky.ru/standard" target="_blank">kaspersky free</a>
+                <p>Бесплатная базовая защита от вирусов, троянов, фишингов и других угроз. Подходит для домашнего пользования</p>
+            </div>
+
+            <ul class="antivirus-card__list">
+                <li><span class="label">Лицензия:</span> Бесплатная</li>
+                <li><span class="label">Поддержка:</span> Windows</li>
+                <li><span class="label">Плюсы:</span> Простота, обновления, легкость</li>
+                <li><span class="label">Минусы:</span> Нет расширенных функций, нет техподдержки</li>
+            </ul>
+          </div>
+    
+          <div class="antivirus-card">
+            <div class="antivirus-card__img">
+                <img src="./image/Kaspersky_Plus.svg" alt="kaspersky Plus">
+            </div>
+    
+            <div class="antivirus-card__text">
+                <a href="https://www.kaspersky.ru/plus" target="_blank">kaspersky Plus</a>
+                <p>Платная версия с расширенной защитой, включает VPN, защиту паролей и конфиденциальность. Оптимально для активных интернет-пользователей</p>
+            </div>
+
+            <ul class="antivirus-card__list">
+                <li><span class="label">Лицензия:</span> Платная (подписка)</li>
+                <li><span class="label">Поддержка:</span> Windows/macOS/Android/iOS</li>
+                <li><span class="label">Плюсы:</span> VPN, защита паролей, антифишинг</li>
+                <li><span class="label">Минусы:</span> Требует подписки, может нагружать системы</li>
+            </ul>
+          </div>
+    
+          <div class="antivirus-card">
+            <div class="antivirus-card__img"> 
+                <img src="image/Kaspersky_Premium.svg" alt="kaspersky Premium">
+            </div>
+    
+            <div class="antivirus-card__text">
+                <a href="https://www.kaspersky.ru/premium" target="_blank">kaspersky Premium</a>
+                <p>Максимальный уровень защиты: включает все из Plus + родительский контроль, защита веб-камеры, мониториег итечек данных</p>
+            </div>
+
+            <ul class="antivirus-card__list">
+                <li><span class="label">Лицензия:</span> Платная (расширенная подписка)</li>
+                <li><span class="label">Поддержка:</span> Все платформы</li>
+                <li><span class="label">Плюсы:</span> Полный функционал, приоритетная поддержка</li>
+                <li><span class="label">Минусы:</span> Высокая цена, возможно изботычно для обычных пользователей</li>
+            </ul>
+          </div>
+
+          <div class="antivirus-card">
+            <div class="antivirus-card__img"> 
+                <img src="image/Norton-logo-2021.svg.png" alt="Norton-logo" style="width: 200px;">
+            </div>
+    
+            <div class="antivirus-card__text">
+                <a href="https://us.norton.com/" target="_blank">Norton AntiVirus</a>
+                <p>Мощное платное решение с комплексной защитой: антивирус, VPN, защита данных и сетевой экран. Подходит для пользователей, которым важна полная безопасность и конфиденциальность в интеренете.</p>
+            </div>
+
+            <ul class="antivirus-card__list">
+                <li><span class="label">Лицензия:</span> Платная</li>
+                <li><span class="label">Поддержка:</span> Windows/macOS/Android/iOS</li>
+                <li><span class="label">Плюсы:</span> Косплексная защита, встроенный VPN, мониторинг утечек</li>
+                <li><span class="label">Минусы:</span> Высокая цена, может нагружать системы</li>
+            </ul>
+          </div>
+
+          <div class="antivirus-card">
+            <div class="antivirus-card__img"> 
+                <img src="image/avast-logo-default.svg" alt="Avast-logo" style="width: 200px;">
+            </div>
+    
+            <div class="antivirus-card__text">
+                <a href="https://www.avast.com/ru-ru" target="_blank">Avast</a>
+                <p>Популярный бесплатный антивирус с современным интерфейсом и большим набором функций. Подходит для повселневной защиты и новичков благодаря простоте использования</p>
+            </div>
+
+            <ul class="antivirus-card__list">
+                <li><span class="label">Лицензия:</span> Платная/бесплатная</li>
+                <li><span class="label">Поддержка:</span> Windows/macOS/Android/iOS</li>
+                <li><span class="label">Плюсы:</span> Удобный интерфейс, автоматическое обновление, много настроек</li>
+                <li><span class="label">Минусы:</span> Показ рекламы, сбор данных, платные функции предлагаются часто</li>
+            </ul>
+          </div>
+
+          <div class="antivirus-card">
+            <div class="antivirus-card__img"> 
+                <img src="image/bitdefender-blue-logo-png.webp" alt="bitdefender-logo" style="width: 200px;">
+            </div>
+    
+            <div class="antivirus-card__text">
+                <a href="https://www.bitdefender.com/fr-fr/" target="_blank">bitdefender</a>
+                <p>Быстрый и лёгкий антивирус с высокой эффективностью обнаружения угроз. Работает почти незаметно для пользователя, идеально подходит для тех, кто хочет «установил и забыл».</p>
+            </div>
+
+            <ul class="antivirus-card__list">
+                <li><span class="label">Лицензия:</span> Платная/бесплатная</li>
+                <li><span class="label">Поддержка:</span> Windows/macOS/Android/iOS</li>
+                <li><span class="label">Плюсы:</span> Очень высокая эффективность, низкая нагрузка на систему, простота</li>
+                <li><span class="label">Минусы:</span> Минимум настроек в бесплатной версии, интерфейс на английском</li>
+            </ul>
+          </div>
+
+          <div class="antivirus-card">
+            <div class="antivirus-card__img"> 
+                <img src="image/ESET-NOD32-Antivirus-Logo-Vector.svg-.png" alt="ESET-logo" style="width: 200px;">
+            </div>
+    
+            <div class="antivirus-card__text">
+                <a href="https://www.esetnod32.ru/" target="_blank">ESET NOD32</a>
+                <p>Надёжный платный антивирус с высоким уровнем обнаружения угроз и минимальной нагрузкой на систему. Часто используется в организациях и для профессионального применения.</p>
+            </div>
+
+            <ul class="antivirus-card__list">
+                <li><span class="label">Лицензия:</span> Платная/бесплатная</li>
+                <li><span class="label">Поддержка:</span> Windows/macOS/Android/Linux</li>
+                <li><span class="label">Плюсы:</span> Очень лёгкий и быстрый, эффективная защита от новых угроз, гибкая настройка</li>
+                <li><span class="label">Минусы:</span> Платный, минималистичный интерфейс может показаться скучным, нет встроенного VPN</li>
+            </ul>
+          </div>
+
+          <div class="antivirus-card">
+            <div class="antivirus-card__img"> 
+                <img src="image/Dr.Web Security Space.jpg" alt="Dr.Web Security Space-logo" style="width: 200px;">
+            </div>
+    
+            <div class="antivirus-card__text">
+                <a href="https://www.drweb.ru" target="_blank">Dr.Web Security Space</a>
+                <p>Российский антивирус с мощной системой лечения заражённых файлов. Рекомендуется для пользователей, которым нужна серьёзная защита и восстановление системы после заражения.</p>
+            </div>
+
+            <ul class="antivirus-card__list">
+                <li><span class="label">Лицензия:</span> Платная (с пробным периодом)</li>
+                <li><span class="label">Поддержка:</span> Windows/macOS/Android/Linux</li>
+                <li><span class="label">Плюсы:</span> Глубокая проверка, восстановление заражённых файлов, регулярные обновления</li>
+                <li><span class="label">Минусы:</span> Интерфейс менее дружелюбный, высокая нагрузка на систему</li>
+            </ul>
+          </div>
+
+          <div class="antivirus-card">
+            <div class="antivirus-card__img"> 
+                <img src="image/Panda.jpg" alt="Panda Free Antivirus-logo" style="width: 300px;">
+            </div>
+    
+            <div class="antivirus-card__text">
+                <a href="https://www.pandasecurity.com" target="_blank">Panda Free Antivirus</a>
+                <p>Облачный антивирус с простым интерфейсом. Идеально подходит для базовой защиты домашнего компьютера. Работает быстро за счёт использования облачных технологий.</p>
+            </div>
+
+            <ul class="antivirus-card__list">
+                <li><span class="label">Лицензия:</span> Бесплатная (есть платные версии)</li>
+                <li><span class="label">Поддержка:</span> Windows/Android</li>
+                <li><span class="label">Плюсы:</span> Быстрый и лёгкий, понятный интерфейс, минимум нагрузки</li>
+                <li><span class="label">Минусы:</span> Ограниченный функционал, интернет-зависимость</li>
+            </ul>
+          </div>
+      </div>
+    </section>
+
+    <section id="zakluchenie">
+      <h2>Выводы</h2>
+      <p>Проект позволил изучить принципы работы антивирусных программ и провести анализ их возможностей. Антивирусы играют ключевую роль в обеспечении информационной безопасности. Практическое тестирование подтвердило, что даже бесплатные решения могут эффективно защищать систему. Выбор антивируса зависит от потребностей пользователя: для базовой защиты подойдёт Kaspersky Free, для расширенной — платные версии антивирусов с дополнительными функциями.</p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Нижневартовский социально-гуманитарный колледж
+  </footer>
+</body>
+</html>
+<!-- Шертанов Ренат -->
